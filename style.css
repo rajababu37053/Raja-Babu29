@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header-container {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 1px solid white;
+}
+
+/* .heading {
+    background-color: aqua;
+
+}
+
+.nav-container {
+    background-color: yellow;
+
+} */
+
+.li-container {
+    display: flex;
+    font-family: "Pacifico", cursive;
+}
+
+nav ul {
+    list-style: none;
+    font-family: "ubuntu", sans-serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: honeydew;
+}
+
+.img-container {
+    background-image: url(images/newbg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-name {
+    font-size: 70px;
+}
+
+.user-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: right;
+    border: 10px solid white;
+    border-radius: 190px;
+
+}
+
+.second-user-img {
+    height: 450px;
+    width: 300px;
+    object-position: center;
+    object-fit: cover;
+    border: 9px solid aqua;
+    border-radius: 150px;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+.img-about-container {
+    display: flex;
+    margin: 0 15px;
+
+}
+
+.about {
+    margin-left: 15px;
+
+}
+
+.about-head {
+    border-left: 5px solid blueviolet;
+    margin: 0 0 8px 0;
+    padding-left: 8px;
+}
+
+.skill-head {
+    margin-top: 10px;
+
+}
+
+.margin-para {
+    margin-left: 11px;
+    font-size: 20px;
+}
+
+.contact-icon {
+    width: 20px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+.footer{
+    background-color: lightskyblue;
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px 0;
+}
+.footer-para{
+    font-size: 35px;
+    font-weight: bold;
+}
